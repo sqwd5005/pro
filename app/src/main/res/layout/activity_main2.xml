@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/top_background1"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:layout_width="@dimen/size230"
+        android:layout_height="@dimen/size144"
+        android:text="@string/login_to_your_account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp36"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,SpUsage"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/women2"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <EditText
+        android:layout_width="@dimen/dp346"
+        android:layout_height="@dimen/dp54"
+        android:background="@drawable/btn2"
+        android:gravity=""
+        android:text="@string/enter_your_email"
+        android:textAllCaps="false"
+        android:textColor="@color/_717171"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:layout_width="@dimen/dp105"
+        android:layout_height="@dimen/corners"
+        android:text="@string/your_email"
+        android:textColor="@color/_5325"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,SpUsage"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:layout_width="@dimen/dp140"
+        android:layout_height="@dimen/corners"
+        android:text="@string/your_password"
+        android:textColor="@color/_5325"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,SpUsage"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <EditText
+        android:layout_width="@dimen/dp346"
+        android:layout_height="@dimen/dp54"
+        android:background="@drawable/btn2"
+        android:gravity=""
+        android:text="@string/enter_your_password"
+        android:textAllCaps="false"
+        android:textColor="@color/_717171"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:layout_width="@dimen/dp149"
+        android:layout_height="@dimen/tsize"
+        android:text="@string/forget_password"
+        android:textColor="@color/_5325"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,SpUsage"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facebook"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="600dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twitter"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="600dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="@dimen/dp350"
+        android:layout_height="@dimen/dp60"
+        android:background="@drawable/btn3"
+        android:drawableEnd="@drawable/circle"
+        android:foregroundGravity="center_horizontal"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tsize"
+        tools:ignore="MissingConstraints,SpUsage"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reg"
+        android:layout_width="@dimen/dp350"
+        android:layout_height="@dimen/dp60"
+        android:background="@drawable/btn1"
+        android:text="@string/don_t_have_an_account_register"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="783dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
