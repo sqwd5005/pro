@@ -16,5 +16,6 @@
     <string name="login_to_your_account">Login to your account</string>
     <string name="forget_password">Forget password?</string>
     <string name="don_t_have_an_account_register">don\'t have an account?Register</string>
+    <string name="text">No account? Register</string>
 
 </resources>
